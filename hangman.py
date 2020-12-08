@@ -10,9 +10,9 @@ pygame.display.set_caption("Hangman - by Steven")
 inPlay = True
 while inPlay:
 # Use loop to draw window
-win.fill(GREEN)
-pygame.display.update()
-pygame.time.delay(100)
+    win.fill(GREEN)
+    pygame.display.update()
+    pygame.time.delay(100)
 
 #-----------------------------------------------------
 pygame.quit() # always quit oygame when done!
